@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #173854;
+    background-color: #f1f8fd;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Sky Blue Dreamy Clouds Aesthetic (Canva Template EAGoDbccYHA Inspo) */
+.bg-dreamy-sky {
+  background: linear-gradient(180deg, #cbe0f0 0%, #b8dbf2 40%, #edf6fd 100%);
+}
+
+.bg-sea-radial {
+  background: radial-gradient(circle at 50% 20%, rgba(135, 199, 232, 0.28), transparent 70%),
+              radial-gradient(circle at 85% 75%, rgba(192, 220, 245, 0.4), transparent 60%);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(135, 199, 232, 0.35);
+  box-shadow: 0 10px 30px -10px rgba(19, 125, 181, 0.08);
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(135, 199, 232, 0.3);
+}
